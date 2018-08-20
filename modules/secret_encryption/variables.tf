@@ -10,5 +10,6 @@ variable "text_to_encrypt" {
 
 variable "secret_context" {
   type = "map"
+  description = "Context to be associated with the encrypted secret"
   default = {}
 }
