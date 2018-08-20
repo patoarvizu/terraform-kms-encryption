@@ -7,3 +7,8 @@ variable "text_to_encrypt" {
   type = "string"
   description = "Plain text string to be encrypted"
 }
+
+variable "secret_context" {
+  type = "map"
+  default = {}
+}
