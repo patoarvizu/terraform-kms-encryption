@@ -17,6 +17,7 @@ additional_account_ids | []
 
 * `key_id`
 * `key_arn`
+* `alias_arn`
 
 ### Secret decryption
 
