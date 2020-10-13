@@ -8,3 +8,9 @@ variable "additional_account_ids" {
   description = "List of additional account ids with permissions to use the key"
   default     = []
 }
+
+variable "tags" {
+  type        = "map"
+  description = "INF-3910: Mandatory tagging"
+  default     = {}
+}
