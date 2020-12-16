@@ -12,6 +12,7 @@ Variable name | Default value
 ------------- | -------------
 alias_name |
 additional_account_ids | []
+enable_key_rotation | false
 
 #### Outputs
 
