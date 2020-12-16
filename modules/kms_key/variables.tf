@@ -14,3 +14,10 @@ variable "tags" {
   description = "INF-3910: Mandatory tagging"
   default     = {}
 }
+
+variable "enable_key_rotation" {
+  type        = "bool"
+  description = "Enable key rotation. Default to false."
+  default     = false
+}
+

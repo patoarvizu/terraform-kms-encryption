@@ -1,6 +1,7 @@
 resource "aws_kms_key" "key" {
-  policy = "${data.aws_iam_policy_document.policy.json}"
-  tags   = "${var.tags}"
+  enable_key_rotation = "${var.enable_key_rotation}"
+  policy              = "${data.aws_iam_policy_document.policy.json}"
+  tags                = "${var.tags}"
 }
 
 resource "aws_kms_alias" "alias" {
